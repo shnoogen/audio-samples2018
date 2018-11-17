@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Josefin Sans', helvetica, sans-serif;
+  margin: auto;
+  background-image: linear-gradient(45deg, #a3c9fc 25%, #f1dac9);
+  color: #000000;
+  text-align: center;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+#theboys {
+  max-width: 600px;
+}
+
+#credit {
+  font-size: 80%;
+}
+
+#description {
+  font-size: large;
+  padding: 0 10rem;
+}
+
+#sum, #god, #koko, #surf {
+  margin: 1rem;
+}
+footer{
+  background: #ffffff;
+  padding: .5rem;
+  margin: 1rem 0 1rem 0;
+  text-align: center;
+}
+
+/* media query time!! */
+
+@media screen and (max-width: 900px) {
+  #sum, #god, #koko, #surf {
+    margin: 1rem;
+    max-width: 150px;
+  }
+
+  #theboys {
+    padding: 1rem;
+    max-width: 500px;
+  }
+
+  #credit {
+    padding: 0 2rem;
+  }
+
+  #description{
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #theboys {
+    max-width: 400px;
+  }
+}
